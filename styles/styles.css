@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Noto+Sans+Mro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(48, 48, 48);
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+/* encabezado */
+
+.header {
+    margin-top: 10%;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(60, 75, 95);
+    font-family: 'Noto Sans Mro', sans-serif;
+
+}
+
+/* intro */
+
+.intro {
+    text-align: center;
+    margin: 5% 5% 2% 5%;
+    font-size: 1.1rem;
+}
+
+.introN {
+    text-align: center;
+    margin: 2% 5% 2% 5%;
+    font-size: 1.1rem;
+}
+
+/* logo bajo nombre */
+
+.logobn {
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+/* marcas */
+
+.brands {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.brands h1 {
+    text-align: center;
+}
+
+.marca {
+    display: flex;
+
+}
+
+.logo {
+    height: 80px;
+    padding: 20px;
+    transition: 5ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(8px 8px 13px rgba(0, 0, 0, 0.3));
+}
+
+/* footer */
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(60, 75, 95);
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+/* volver al inicio */
+
+.btindex{
+    position: fixed;
+    right: 1%;
+    top: 3%;
+}
+
+.btindex a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    transition: .2s;
+    background-color: rgb(60, 75, 95);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.btindex a:hover{
+    color: rgb(60, 75, 95);
+    background-color: #fff;
+    filter: drop-shadow(8px 8px 13px rgba(0, 0, 0, 0.3));
+}
