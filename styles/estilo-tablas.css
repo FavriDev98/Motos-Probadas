@@ -1,0 +1,58 @@
+.expo-moto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-moto {
+    height: 450px;
+    padding: 0px 120px 60px 120px;
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(211, 211, 211);
+}
+
+.nombre-moto {
+    text-align: center;
+    margin: 3% 0 3% 0;
+}
+
+.pag-moto {
+    height: 80vh;
+}
+
+#r15 {
+    opacity: 0%;
+}
+
+#fzs {
+    opacity: 0%;
+}
+
+#fz25 {
+    opacity: 0%;
+}
+
+#descripcion-yamaha {
+    height: 80vh;
+    text-align: center;
+}
+
+#intro-yamaha {
+    opacity: 0%;
+}
+
+.moto-nav {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(60, 75, 95);
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+}
