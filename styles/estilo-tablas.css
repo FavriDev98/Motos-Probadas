@@ -27,6 +27,8 @@ tr:nth-child(even) {
     height: 80vh;
 }
 
+/* yamaha */
+
 #r15 {
     opacity: 0%;
 }
@@ -48,6 +50,31 @@ tr:nth-child(even) {
     opacity: 0%;
 }
 
+/* bajaj */
+
+#descripcion-bajaj {
+    height: 80vh;
+    text-align: center;
+}
+
+#intro-bajaj {
+    opacity: 0%;
+}
+
+#ns125 {
+    opacity: 0%;
+}
+
+#ns200 {
+    opacity: 0%;
+}
+
+#rs200 {
+    opacity: 0%;
+}
+
+/* botones navecacion */
+
 .moto-nav {
     padding: 1rem;
     border-radius: 1rem;
@@ -55,4 +82,10 @@ tr:nth-child(even) {
     text-decoration: none;
     color: #fff;
     margin: 1rem;
+}
+
+.moto-nav:hover{
+    color: #fff;
+    background-color: rgb(48, 48, 48);
+    filter: drop-shadow(8px 8px 13px rgba(0, 0, 0, 0.3));
 }

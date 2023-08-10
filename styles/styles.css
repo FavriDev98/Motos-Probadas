@@ -106,7 +106,7 @@ footer a:visited {
 .btindex a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+    color: #fff;
     margin: auto;
     transition: .2s;
     background-color: rgb(60, 75, 95);
@@ -115,7 +115,7 @@ footer a:visited {
 }
 
 .btindex a:hover{
-    color: rgb(60, 75, 95);
-    background-color: #fff;
+    color: #fff;
+    background-color: rgb(48, 48, 48);
     filter: drop-shadow(8px 8px 13px rgba(0, 0, 0, 0.3));
 }
